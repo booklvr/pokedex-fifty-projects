@@ -1,8 +1,8 @@
 import React from 'react'
-import placeholder from './components/placeholder'
+import Pokedex from './components/Pokedex'
 
 const App = () => {
-  return <placeholder />
+  return <Pokedex />
 }
 
 export default App

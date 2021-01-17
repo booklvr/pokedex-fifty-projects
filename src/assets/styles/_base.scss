@@ -1,24 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  height: 100vh;
+  background-color: #efefbb;
+  font-family: 'Loto', sans-serif;
+
   margin: 0;
 }
 
 #root {
   height: 100%;
   width: 100%;
-  background-color: #ecf0f1;
-  font-family: 'Roboto', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  overflow: hidden;
+  @include center;
   margin: 0;
 }
